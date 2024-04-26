@@ -9,7 +9,7 @@ on:
   push:
     branches:
       - master
-      - 'dev-*'
+      - 'dev*'
       - 'feat/**'
 jobs:
   deploy:
