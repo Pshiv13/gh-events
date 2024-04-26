@@ -11,7 +11,7 @@ on:
       - main
       - 'dev-*'
       - 'feat/**'
-    paths-ignore:
+    paths:
       - '.github/workflows/*'
 jobs:
   deploy:
