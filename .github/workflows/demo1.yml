@@ -11,8 +11,6 @@ on:
       - main
       - 'dev-*'
       - 'feat/**'
-    paths:
-      - '.github/workflows/*'
 jobs:
   deploy:
     runs-on: ubuntu-latest
